@@ -11,6 +11,26 @@
 - Compiles on Linux and Cygwin Windows.
 - Uses the *build* scripts to build tool.
 
+## Building project
+
+1. Create directory to build project in.
+	* `mkdir muman-github`
+	* `cd muman-github`
+2. Check out the *build* repository.
+	* `git clone git@github.com:muman613/build.git`
+3. Check out the *crepo* repository.
+	* `git clone git@github.com:muman613/crepo.git`
+4. Change into the *crepo* directory and `make`.
+	* `cd crepo`
+	* `make`
+
 #### TODO
 - Add support for check-in
 - Make multi-threaded  to support parallel check-out.
+
+####XML example
+~~~xml
+<body>
+	<tag>Data</tag>
+</body>
+~~~
